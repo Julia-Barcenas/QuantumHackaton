@@ -19,9 +19,8 @@ Dato: Es importante dividir la carga de trabajo en varios camiones debido a que 
 
 5. Se decidió tomar la aproximación de *VRP (Vehicle Routing Problem)*. La diferencia es que con esta técnica, en lugar de optimizar la ruta primero buscamos el conjunto de rutas más eficientes, esto se hizo al momento de separar los clusters.
 Posteriormente, cada uno de los clusters se transformó de un dato de tipo networkx a uno de tsp para que cada uno de los clusters pueda ser resuelto como su propio TSP, donde se optimizaron cada una de las rutas, con la consideración de que todos los vehículos deben regresar al mismo centro de distribución.
-
-![VRP](https://ingenieriaindustrialonline.com/wp-content/uploads/2021/07/VRP.png)
-
-<img src="https://ingenieriaindustrialonline.com/wp-content/uploads/2021/07/VRP.png"  width="60%" height="30%">
-
+<center>
+   <img src="https://ingenieriaindustrialonline.com/wp-content/uploads/2021/07/VRP.png"  width="60%" height="30%">
+</center>
+ 
 7. Se les asignó un costo relacionado con la distancia mínima que recorrió cada uno de los camiones. Específicamente se calculó que se utilizan 0.22 litros/km. Cada camión tiene un costo de $1509/día. Cada kilómetro cuesta $5.31 (suponiendo una velocidad constante de 60km/h)
