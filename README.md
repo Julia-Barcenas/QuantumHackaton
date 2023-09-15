@@ -4,6 +4,7 @@
 Una empresa de reparto tiene una flota de camiones y un conjunto de clientes en diferentes lugares para entregar paquetes.
 Debemos encontrar la longitud total de viaje más corta para todos los camiones para minimizar el costo/tiempo total. Para los cuales se utilizaron métodos de optimización combinatoria.
 
+## Metodología
 La **metodología** a seguir en la resolución de este código fue el siguiente:
 
 1. Se creó un grafo con una distribución uniforme. Se definieron n nodos los cuales se distribuyeron de manera uniforme
