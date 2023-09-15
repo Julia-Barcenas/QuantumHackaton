@@ -22,4 +22,6 @@ Posteriormente, cada uno de los clusters se transformó de un dato de tipo netwo
 
 ![VRP](https://ingenieriaindustrialonline.com/wp-content/uploads/2021/07/VRP.png)
 
+<img src="https://ingenieriaindustrialonline.com/wp-content/uploads/2021/07/VRP.png"  width="60%" height="30%">
+
 7. Se les asignó un costo relacionado con la distancia mínima que recorrió cada uno de los camiones. Específicamente se calculó que se utilizan 0.22 litros/km. Cada camión tiene un costo de $1509/día. Cada kilómetro cuesta $5.31 (suponiendo una velocidad constante de 60km/h)
